@@ -2,8 +2,8 @@ var request = require('supertest');
 var app = require('../app.js');
 
 describe('GET /', function() {
-  it('respond with hello shiva', function(done) {
-    request(app).get('/').expect('hello shiva', done);
+  it('respond with hello dreamz', function(done) {
+    request(app).get('/').expect('hello dreamz', done);
   });
 });
 
